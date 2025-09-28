@@ -1,0 +1,17 @@
+[
+  {
+    "customer_id": 1,
+    "address": "Unit 5, 20 King St",
+    "preferences": "If intercom fails, do not leave at door; customer will meet at entrance if notified."
+  },
+  {
+    "customer_id": 2,
+    "address": "15 Queen Rd",
+    "preferences": "Do not safe drop. If not home, take to Parcel Collect at PO 3000."
+  },
+  {
+    "customer_id": 3,
+    "address": "88 Lake Ave",
+    "preferences": "Allow Safe Drop behind pot plant on porch if weather is clear."
+  }
+]

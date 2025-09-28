@@ -1,0 +1,24 @@
+# Australia Post – Safe Drop / Authority to Leave (ATL) — Compiled Notes (for prototype)
+
+## What is Safe Drop / ATL
+Allows a parcel to be left at the delivery address without signature when conditions are met.
+
+## Conditions (must ALL hold)
+- Sender has allowed Safe Drop/ATL for the service.
+- Receiver has opted in (e.g., via MyPost or AusPost app) for Safe Drop for this parcel/address.
+- The driver identifies a genuinely safe place: not visible from street and protected from weather.
+
+## Exclusions (cannot be left)
+- Items requiring ID/age verification (e.g., alcohol, restricted items).
+- Items flagged by the sender as signature-only / no ATL.
+
+## If there is NO safe place
+- Parcel is taken to the nearest Post Office or collection point.
+- A card or electronic notification is provided.
+
+## Examples
+- Intercom broken; customer at home: meet at entrance if feasible; otherwise Post Office collection.
+- Apartment lobby with public access and no concealment: no safe place → Post Office collection.
+
+## Notes
+This file is a condensed policy brief for a student prototype, not official AusPost policy.

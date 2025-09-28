@@ -1,0 +1,16 @@
+# Delivery FAQs (condensed for prototype)
+
+Q: Can I opt out of Safe Drop?
+A: Yes, change preferences in MyPost or the AusPost app.
+
+Q: Will alcohol be left at the door?
+A: No. Items requiring ID cannot be left with ATL; they must be collected in person.
+
+Q: What happens if no one is home and there is no safe place?
+A: The parcel will be taken to a nearby Post Office or Parcel Locker for collection.
+
+Q: Can preferences differ by parcel?
+A: Yes, per-parcel preferences can be set in the app when available.
+
+Q: What evidence will I get for Safe Drop?
+A: Photo proof or a delivery record is provided where available.
