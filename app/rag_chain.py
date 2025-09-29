@@ -1,9 +1,11 @@
 import os
-from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_chroma import Chroma
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.llms import Ollama
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
+
+
 
 
 # Paths
@@ -35,7 +37,7 @@ def build_chain(k: int = 3) -> RetrievalQA:
     )
 
     # 3) LLM (Ollama must be installed & running; pull a model e.g. `ollama pull llama3`)
-    llm = Ollama(model="llama3")
+    llm = Ollama(model="llama3:8b")
 
     # 4) RetrievalQA chain
     chain = RetrievalQA.from_chain_type(

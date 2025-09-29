@@ -1,8 +1,10 @@
 import os, glob
 from langchain_community.document_loaders import TextLoader, PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import Chroma
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_chroma import Chroma
+
+
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
@@ -39,7 +41,7 @@ def main():
 
     emb = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     vectordb = Chroma.from_documents(chunks, emb, persist_directory=PERSIST_DIR)
-    vectordb.persist()
+    # vectordb.persist()
     print(f"Persisted Chroma DB at {PERSIST_DIR}")
 
 if __name__ == "__main__":
